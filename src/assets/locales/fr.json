@@ -57,6 +57,8 @@
       },
       "host": "Vous êtes en train de vous connecter à <0>{{hostname}}</0> - veuillez confirmer que vous lui faites confiance avant de créer un compte",
       "no": "Retour",
+      "noHost": "Le serveur n'a pas été configuré, vous ne pouvez donc pas créer de compte",
+      "noHostTitle": "Serveur non configuré !",
       "title": "Avez-vous confiance en ce serveur ?",
       "yes": "Je fais confiance à ce serveur"
     },
@@ -117,7 +119,13 @@
       "loading": "Chargement...",
       "noResults": "Nous n'avons rien trouvé !",
       "placeholder": {
-        "default": "Que voulez-vous voir ?"
+        "default": "Que voulez-vous voir ?",
+        "extra": [
+          "Que voulez-vous explorer ?",
+          "Que y a-t-il dans votre liste de lecture?",
+          "Quel est votre film préféré ?",
+          "Quelle est votre série préférée ?"
+        ]
       },
       "sectionTitle": "Résultats de la recherche"
     },
@@ -286,6 +294,7 @@
         "title": "Qualité"
       },
       "settings": {
+        "audioItem": "Audio",
         "downloadItem": "Télécharger",
         "enableSubtitles": "Activer les sous-titres",
         "experienceSection": "Expérience de visionnage",
@@ -312,8 +321,9 @@
         "unknownOption": "Inconnu"
       },
       "subtitles": {
-        "customChoice": "Importer des sous-titres depuis un fichier",
+        "customChoice": "Glisser ou charger un fichier",
         "customizeLabel": "Personnaliser",
+        "dropSubtitleFile": "Glisser le fichier des sous-titres ici",
         "offChoice": "Désactivé",
         "settings": {
           "backlink": "Sous-titres personnalisés",
@@ -528,6 +538,7 @@
       }
     },
     "subtitles": {
+      "backgroundBlurLabel": "Flou d'arrière-plan",
       "backgroundLabel": "Opacité du fond",
       "colorLabel": "Couleur",
       "previewQuote": "Plus l'obscurité est profonde, plus la lumière brille.",
